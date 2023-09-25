@@ -1,14 +1,16 @@
 # contract-test
-### 如何使用
+### 对contract进行test
 ```
 npm install
-npx hardhat compile
 npx hardhat test
 
-如果需要指定测试文件
+指定测试文件
 npx hardhat test test/xxx.js
 ```
 
 ### 测试覆盖率
+```
 npx hardhat coverage --testfiles test/*.js
-可以生成对应的覆盖率文件
+
+可生成对应的覆盖率文件，之后进行查看
+```
