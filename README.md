@@ -1,10 +1,13 @@
 # contract-test
 ### 如何使用
+```
 npm install
 npx hardhat compile
 npx hardhat test
-##### 如果需要指定测试文件
+
+如果需要指定测试文件
 npx hardhat test test/xxx.js
+```
 
 ### 测试覆盖率
 npx hardhat coverage --testfiles test/*.js
